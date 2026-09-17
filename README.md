@@ -69,7 +69,15 @@ java -ea App
 
 ## Screenshots
 
-*(Add CLI screenshots here)*
+![Main Menu](screenshots/main-menu.png)
+![Student Management](screenshots/student-menu.png)
+![Adding a Student](screenshots/add-student.png)
+![Course Management](screenshots/course-menu.png)
+![Listing Courses](screenshots/list-courses.png)
+![Enrollment Menu](screenshots/enrollment-menu.png)
+![Enrolling a Student](screenshots/enroll-student.png)
+![Duplicate Enrollment Error](screenshots/duplicate-error.png)
+![Student Transcript](screenshots/transcript.png)
 
 ---
 
@@ -101,3 +109,4 @@ java -ea App
 | Exception Handling | `edu.ccrm.exceptions` (`DuplicateEnrollmentException`, `MaxCreditLimitExceededException`) |
 | Inheritance & Polymorphism | `Person` base class extended by `Student` and `Instructor` |
 | Console-based I/O | `edu.ccrm.cli.MainMenu` |
+
