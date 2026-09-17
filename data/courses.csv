@@ -1,0 +1,127 @@
+code,title,credits,instructor,semester,department
+DSN5098,MASTER THESIS (Phase I & Phase 2),40,Dr. Sharma,FALL,Research
+CSD4002,Ethical Hacking,4,Dr. Gupta,FALL,Computer Science
+CSD5005,Network Analysis, Architecture and Design,4,Dr. Patel,FALL,Computer Science
+CSE3006,Computer Networks,4,Dr. Kumar,FALL,Computer Science
+CSE3015,AWS Cloud Practitioner,4,Dr. Singh,FALL,Cloud Computing
+CHI2010,Healthcare IT Vendor Management,2,Dr. Reddy,FALL,Health Informatics
+CSA4001,Algorithm for Intelligent Systems,3,Dr. Verma,FALL,Computer Science
+CSA4002,Artificial Neural Networks,4,Dr. Mehta,FALL,Computer Science
+CSA4003,Data Mining and Data Warehousing,3,Dr. Shah,FALL,Computer Science
+DSN2096,Engineering Design,2,Dr. Joshi,FALL,Engineering
+PLA1003,Logic and Problem Solving for Engineers,3,Dr. Nair,FALL,Placement
+CDS3006,Data Analysis and Visualization,3,Dr. Iyer,FALL,Data Science
+CDS4002,Deep Learning for Computer Vision,3,Dr. Menon,FALL,Data Science
+MAT3002,Applied Linear Algebra,3,Dr. Rao,FALL,Mathematics
+MGT1022,Engineering Economics,3,Dr. Pillai,FALL,Management
+BIO3024,Microbiology,3,Dr. Krishnan,FALL,Biology
+BIY3002,Genetics,3,Dr. Bhattacharya,FALL,Biology
+BIY3020,Environmental Biotechnology,3,Dr. Mukherjee,FALL,Biology
+BIY4001,Genomics,3,Dr. Chatterjee,FALL,Biology
+BIY4003,Research Methodology,3,Dr. Banerjee,FALL,Research
+BIY4012,Plant Biotechnology,4,Dr. Das,FALL,Biology
+PLA1006,Lateral Thinking,2,Dr. Sen,FALL,Placement
+CSE4005,Machine Learning,3,Dr. Roy,FALL,Computer Science
+DSN3099,Engineering Project in Community Service,2,Dr. Ghosh,FALL,Engineering
+EAC2005,Robotics And Mechatronics,4,Dr. Bose,FALL,Electronics
+EAC3001,Principles Of Communication Systems,4,Dr. Dutta,FALL,Electronics
+ECE4001,Linear Integrated Circuits,3,Dr. Majumdar,FALL,Electronics
+PLA1005,Competitive Coding Practice,3,Dr. Sarkar,FALL,Placement
+CSA4008,Applied Machine Learning,4,Dr. Bhatt,FALL,Computer Science
+MAT1001,Calculus and Laplace Transforms,4,Dr. Mishra,FALL,Mathematics
+UHV0002,Universal Human Values - II,3,Dr. Pandey,FALL,Humanities
+HUM0003,INDIAN CONSTITUTION,2,Dr. Tiwari,FALL,Humanities
+ASE2006,AEROSPACE PROPULSION,4,Dr. Dubey,FALL,Aerospace
+ASE2008,INDUSTRIAL AERODYNAMICS,3,Dr. Jha,FALL,Aerospace
+ASE3009,COMPOSITE MATERIALS AND MECHANICS,3,Dr. Shukla,FALL,Aerospace
+CDS3005,FOUNDATIONS OF DATA SCIENCE,3,Dr. Pathak,FALL,Data Science
+HUM0002,Swachh Bharat,1,Dr. Agarwal,FALL,Humanities
+MAT2003,APPLIED NUMERICAL METHODS,3,Dr. Jain,FALL,Mathematics
+MAT2004,OPERATIONS RESEARCH,3,Dr. Mehra,FALL,Mathematics
+SST2003,Dynamics of workplace communication Skills,1,Dr. Khanna,FALL,Skill Development
+BMT2006,Corporate Social Responsibility,2,Dr. Kapoor,FALL,Management
+BMT2007,E-Commerece,3,Dr. Chopra,FALL,Management
+BMT2016,Emotional Intelligence,3,Dr. Malhotra,FALL,Management
+BMT3002,Entrepreneurship Development,3,Dr. Arora,FALL,Management
+BMT3011,Supply Chain Management,3,Dr. Ahuja,FALL,Management
+BMT3098,Major Project,6,Dr. Sethi,FALL,Management
+HUM2001,Behavioural Science,3,Dr. Bedi,FALL,Humanities
+CSE2004,Theory of Computation and Compiler Design,4,Dr. Puri,FALL,Computer Science
+CSE3003,Operating System,4,Dr. Sood,FALL,Computer Science
+CSE4001,Internet and Web Programming,4,Dr. Khanna,FALL,Computer Science
+MAT2002,Discrete Mathematics and Graph theory,4,Dr. Mehra,FALL,Mathematics
+CSE2006,Programming in Java,3,Dr. Singh,FALL,Computer Science
+CSE3001,Database management Systems,4,Dr. Gupta,FALL,Computer Science
+CSG3006,Visual Effects and Computer Graphics,3,Dr. Patel,FALL,Computer Graphics
+CSE3005,Software Engineering,4,Dr. Kumar,FALL,Computer Science
+ECE4002,Antenna and wave propagation,3,Dr. Reddy,FALL,Electronics
+ECE4012,Digital image processing,3,Dr. Verma,FALL,Electronics
+ECE4018,Data communication and networking,3,Dr. Mehta,FALL,Electronics
+CET2006,Essentials of Instructional Design,3,Dr. Shah,FALL,Education
+CHY1006,Environmental Sustainability,2,Dr. Joshi,FALL,Chemistry
+CSG2001,Augmented Reality and Virtual Reality,4,Dr. Nair,FALL,Computer Graphics
+BIO2006,Medical Electronics,3,Dr. Iyer,FALL,Biology
+CHI1002,Security and Privacy Policies and Regulations for Heal,3,Dr. Menon,FALL,Health Informatics
+CHI2012,Health Informatics,3,Dr. Rao,FALL,Health Informatics
+MEE1003,MATERIALS ENGINEERING AND TECHNOLOGY,4,Dr. Pillai,FALL,Mechanical
+MEE3002,DESIGN OF MACHINE ELEMENTS,4,Dr. Krishnan,FALL,Mechanical
+MEE3004,HEAT TRANSFER,4,Dr. Bhattacharya,FALL,Mechanical
+MEE3019,ADDITIVE MANUFACTURING TECHNOLOGIES,3,Dr. Mukherjee,FALL,Mechanical
+MEE4002,COMPUTATIONAL FLUID DYNAMICS,3,Dr. Chatterjee,FALL,Mechanical
+MEA3015,UNMANNED AERIAL VEHICLES,3,Dr. Banerjee,FALL,Mechanical
+MEE3001,CAD/CAM,3,Dr. Das,FALL,Mechanical
+MGT2003,Technology Entrepreneurship,3,Dr. Sen,FALL,Management
+BIO3005,Medical Imaging Techniques and Data Analysis,3,Dr. Roy,FALL,Biology
+BIY3004,Bioinformatics,4,Dr. Ghosh,FALL,Biology
+EEE3101,Bio system and Control,3,Dr. Bose,FALL,Electronics
+PHY3001,Bio Optics,3,Dr. Dutta,FALL,Physics
+CCA2001,Cloud Computing and Virtualization,4,Dr. Majumdar,FALL,Cloud Computing
+ECE3004,Microprocessors and Microcontrollers,4,Dr. Sarkar,FALL,Electronics
+CSA2002,Introduction to Drones,2,Dr. Bhatt,FALL,Computer Science
+ECE4007,Wireless Sensor Networks,3,Dr. Mishra,FALL,Electronics
+CSE2003,Computer Architecture and Organization,4,Dr. Pandey,FALL,Computer Science
+SST1003,Professional Communication Skills for Engineers,1,Dr. Tiwari,FALL,Skill Development
+BIY3008,Science, Engineering & Technology Project,2,Dr. Dubey,FALL,Research
+DSN2098,Project Exhibition - I,1,Dr. Jha,FALL,Engineering
+EAC1002,Analog Electronics,4,Dr. Shukla,FALL,Electronics
+EAC1005,Fundamentals Of Cybernetics,3,Dr. Pathak,FALL,Electronics
+ECE2003,Signals & Systems,3,Dr. Agarwal,FALL,Electronics
+MAT3003,Probability, Statistics and Reliability,4,Dr. Jain,FALL,Mathematics
+EXC0001,EXTRA CURRICULAR ACTIVITIES,0,Dr. Mehra,FALL,General
+CSD3009,Data Structures and Analysis of Algorithms,4,Dr. Khanna,FALL,Computer Science
+CSE2001,Object Oriented Programming with C++,4,Dr. Kapoor,FALL,Computer Science
+ASE1004,MECHANICS OF MATERIALS,4,Dr. Chopra,FALL,Aerospace
+ASE2013,FLUID MECHANICS FOR AEROSPACE ENGINEERING,4,Dr. Malhotra,FALL,Aerospace
+MAT3001,COMPLEX VARIABLE AND PARTIAL DIFFERENTIAL EQU,3,Dr. Arora,FALL,Mathematics
+BMT1008,Production and Operations Management,3,Dr. Ahuja,FALL,Management
+BMT1009,Business Law,3,Dr. Sethi,FALL,Management
+BMT1011,Basic Banking Process,3,Dr. Bedi,FALL,Management
+BMT1013,Human Resource Management,3,Dr. Puri,FALL,Management
+BMT2001,Macro Economics,3,Dr. Sood,FALL,Management
+BMT2003,Principles of Accounting,4,Dr. Khanna,FALL,Management
+BMT2004,Marketing Research,4,Dr. Mehra,FALL,Management
+BMT2025,Summer Internship,2,Dr. Singh,FALL,Management
+SST1001,Introduction to Soft Skills,1,Dr. Gupta,FALL,Skill Development
+CSE2002,Data Structures and Algorithms,4,Dr. Patel,FALL,Computer Science
+MEE2014,Engineering Design and Modelling,3,Dr. Kumar,FALL,Mechanical
+CSG2006,Game Programming using Unity,3,Dr. Reddy,FALL,Computer Graphics
+PHY1005,Physics of Game Development,4,Dr. Verma,FALL,Physics
+EEE2001,Network analysis,3,Dr. Mehta,FALL,Electronics
+CHI4010,Healthcare Data Analytics,3,Dr. Shah,FALL,Health Informatics
+MAT2005,Transform Techniques and Difference Equations,3,Dr. Joshi,FALL,Mathematics
+MGT2004,Supply Chain Management,3,Dr. Nair,FALL,Management
+EXC1001,EXTRA CURRICULAR ACTIVITIES,0,Dr. Iyer,FALL,General
+CHI1001,Introduction to Health Informatics,3,Dr. Menon,FALL,Health Informatics
+CSE3007,Artificial Intelligence,3,Dr. Rao,FALL,Computer Science
+MEE1001,Engineering Drawing,4,Dr. Pillai,FALL,Mechanical
+MEE1004,Engineering Thermodynamics,3,Dr. Krishnan,FALL,Mechanical
+MEE2002,Strength of Materials,4,Dr. Bhattacharya,FALL,Mechanical
+MEE2003,MANUFACTURING PROCESSES,4,Dr. Mukherjee,FALL,Mechanical
+MAT2002,Discrete Matehmatics and Graph Tehory,4,Dr. Chatterjee,FALL,Mathematics
+BIO1103,Cell and Tissue Culture Techniques,3,Dr. Banerjee,FALL,Biology
+BIO2001,Human Physiology,3,Dr. Das,FALL,Biology
+BIO2002,Molecular Biology and Genetic Engineering,4,Dr. Sen,FALL,Biology
+MAT3011,Transform Techniques,3,Dr. Roy,FALL,Mathematics
+CCA2002,Cloud Architecture and Services,3,Dr. Ghosh,FALL,Cloud Computing
+EEE1001,Electric Circuits and Systems,4,Dr. Bose,FALL,Electronics
+HUM1012,Logic and Language Structures,3,Dr. Dutta,FALL,Humanities
