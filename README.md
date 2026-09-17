@@ -69,15 +69,33 @@ java -ea App
 
 ## Screenshots
 
+### Main Menu
 ![Main Menu](screenshots/main-menu.png)
+
+### Student Management
 ![Student Management](screenshots/student-menu.png)
+
+### Adding a Student
 ![Adding a Student](screenshots/add-student.png)
+
+### Course Management
 ![Course Management](screenshots/course-menu.png)
+
+### Listing All Courses
 ![Listing Courses](screenshots/list-courses.png)
+
+### Enrollment Menu
 ![Enrollment Menu](screenshots/enrollment-menu.png)
+
+### Enrolling a Student in a Course
 ![Enrolling a Student](screenshots/enroll-student.png)
+
+### Duplicate Enrollment Error Handling
 ![Duplicate Enrollment Error](screenshots/duplicate-error.png)
+
+### Student Transcript
 ![Student Transcript](screenshots/transcript.png)
+
 
 ---
 
