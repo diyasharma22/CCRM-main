@@ -1,7 +1,7 @@
 code,title,credits,instructor,semester,department
 DSN5098,MASTER THESIS (Phase I & Phase 2),40,Dr. Sharma,FALL,Research
 CSD4002,Ethical Hacking,4,Dr. Gupta,FALL,Computer Science
-CSD5005,Network Analysis, Architecture and Design,4,Dr. Patel,FALL,Computer Science
+CSD5005,Network Analysis and Architecture Design,4,Dr. Patel,FALL,Computer Science
 CSE3006,Computer Networks,4,Dr. Kumar,FALL,Computer Science
 CSE3015,AWS Cloud Practitioner,4,Dr. Singh,FALL,Cloud Computing
 CHI2010,Healthcare IT Vendor Management,2,Dr. Reddy,FALL,Health Informatics
@@ -81,12 +81,12 @@ CSA2002,Introduction to Drones,2,Dr. Bhatt,FALL,Computer Science
 ECE4007,Wireless Sensor Networks,3,Dr. Mishra,FALL,Electronics
 CSE2003,Computer Architecture and Organization,4,Dr. Pandey,FALL,Computer Science
 SST1003,Professional Communication Skills for Engineers,1,Dr. Tiwari,FALL,Skill Development
-BIY3008,Science, Engineering & Technology Project,2,Dr. Dubey,FALL,Research
+BIY3008,Science Engineering and Technology Project,2,Dr. Dubey,FALL,Research
 DSN2098,Project Exhibition - I,1,Dr. Jha,FALL,Engineering
 EAC1002,Analog Electronics,4,Dr. Shukla,FALL,Electronics
 EAC1005,Fundamentals Of Cybernetics,3,Dr. Pathak,FALL,Electronics
 ECE2003,Signals & Systems,3,Dr. Agarwal,FALL,Electronics
-MAT3003,Probability, Statistics and Reliability,4,Dr. Jain,FALL,Mathematics
+MAT3003,Probability Statistics and Reliability,4,Dr. Jain,FALL,Mathematics
 EXC0001,EXTRA CURRICULAR ACTIVITIES,0,Dr. Mehra,FALL,General
 CSD3009,Data Structures and Analysis of Algorithms,4,Dr. Khanna,FALL,Computer Science
 CSE2001,Object Oriented Programming with C++,4,Dr. Kapoor,FALL,Computer Science
