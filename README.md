@@ -1,80 +1,75 @@
 # Campus Course & Records Manager (CCRM)
 
-## Project Overview
+A console-based Java application for managing student and course records at an educational institution — built as a course project applying core Java, OOP, and file I/O concepts.
 
-**Campus Course & Records Manager (CCRM)** is a console-based Java application for managing student and course records at an educational institution.
+## Overview
 
-It lets administrators:
-- Handle student enrollments
-- Track academic progress
-- Manage course offerings
-- Generate essential reports
+CCRM lets an administrator manage students, courses, enrollments, and grades entirely from the command line, with data persisted to CSV files and backup support.
 
-The application follows a clean architecture, separating **data**, **business logic**, and **user interface** concerns.
+## Features
 
-> Requires **JDK 17** or higher.
+- **Student Management** — add, update, and view student records
+- **Course Management** — create and manage course offerings, assign instructors and semesters
+- **Enrollment & Grading** — enroll students in courses with validation (duplicate-enrollment and max-credit-limit checks), record grades, and generate transcripts
+- **Data Import/Export & Backup** — load/save student, course, and enrollment data via CSV; back up application data
 
----
+## Technologies Used
 
-## How to Run
+- **Java 17** (JDK)
+- Core Java: OOP (inheritance, polymorphism), Collections Framework, custom exceptions
+- CSV-based file I/O for persistence
+- Console-based CLI (no external frameworks)
 
-### Compile
+## Project Structure
+- CCRM-main/
+  - bin/ - Compiled .class files
+  - data/ - CSV data (students, courses, enrollments)
+  - src/edu/ccrm/
+    - cli/ - MainMenu (console UI)
+    - config/ - AppConfig
+    - domain/ - Person, Student, Instructor, Course, Enrollment, Grade, Semester
+    - exceptions/ - DuplicateEnrollmentException, MaxCreditLimitExceededException
+    - io/ - ImportExportService, BackupService
+    - service/ - StudentService, CourseService, EnrollmentService, TranscriptService
+    - util/ - Validators, Comparators, RecursionUtils
+  - README.md
+
+
+## Steps to Install & Run
+
+**Prerequisite:** JDK 17 or higher.
+
 ```bash
-cd path/to/CCRM/src
-javac App.java -d ../bin
-```
+# 1. Clone the repository
+git clone https://github.com/diyasharma22/CCRM-main.git
+cd CCRM-main/src
 
-### Run
-```bash
+# 2. Compile
+javac -d ../bin $(find . -name "*.java")
+
+# 3. Run
 cd ../bin
 java App
 ```
 
-### Run with assertions enabled
-Assertions are disabled by default. To enable them:
+To run with assertions enabled:
 ```bash
-java -ea -cp ../bin App
+java -ea App
 ```
 
----
+## Instructions for Testing
 
-## Project Structure
-CCRM-main/
-├── bin/ # Compiled .class files
-├── data/ # CSV data files (students, courses, enrollments)
-├── src/ # Java source code
-└── README.md
+1. Launch the application (`java App` from the `bin` directory).
+2. Use the console menu to:
+   - Add a new student and a new course
+   - Enroll the student in the course — try enrolling the same student twice to confirm `DuplicateEnrollmentException` is handled
+   - Enroll a student past the credit limit to confirm `MaxCreditLimitExceededException` is handled
+   - Record a grade and generate a transcript for the student
+   - Export data to CSV and confirm the files appear under `data/`
 
+## Screenshots
 
----
-
-## Setting Up the Development Environment
-
-### Install the JDK (Windows)
-1. Download the latest JDK from the [official Oracle website](https://www.oracle.com/java/technologies/downloads/).
-2. Run the installer (defaults to a path like `C:\Program Files\Java\jdk-17`).
-3. Set environment variables:
-   - Create a system variable `JAVA_HOME` pointing to your JDK path.
-   - Add `%JAVA_HOME%\bin` to your `Path` variable.
-
-### VS Code Setup
-1. Install the **Extension Pack for Java** (Microsoft) from the VS Code Marketplace.
-2. Open VS Code → **File > Open Folder** → select the `CCRM-main` folder.
-3. Go to **File > Preferences > Settings**, search `Java: Home`, and set it to your JDK path.
-4. Open `App.java`, then **Run > Start Debugging (F5)**.
-
----
-
-## Syllabus-to-Code Mapping
-
-| Syllabus Topic | Where It's Demonstrated |
-|---|---|
-| Object-Oriented Programming (OOP) | `edu.ccrm.domain` package (`Student`, `Course`, `Enrollment`) |
-| Data Persistence & File I/O | `edu.ccrm.io` package |
-| Collection Framework | `edu.ccrm.service` package (e.g. `StudentService` using `List<Student>`) |
-| Exception Handling | `edu.ccrm.exceptions` (e.g. `DuplicateEnrollmentException`, `MaxCreditLimitExceededException`) |
-| Inheritance & Polymorphism | `Person` base class extended by `Student` and `Instructor` |
-| Console-based I/O | `edu.ccrm.cli` package (`MainMenu`) |
+*(Add CLI screenshots here)*
 
 ---
 
@@ -95,3 +90,14 @@ CCRM-main/
 - **JVM** — runs Java bytecode; makes Java "write once, run anywhere."
 - **JRE** — JVM + core libraries, for running Java programs.
 - **JDK** — JRE + development tools (`javac`, debugger); required to build this project.
+
+## Syllabus-to-Code Mapping
+
+| Syllabus Topic | Where It's Demonstrated |
+|---|---|
+| Object-Oriented Programming (OOP) | `edu.ccrm.domain` package (`Person`, `Student`, `Instructor`, `Course`, `Enrollment`) |
+| Data Persistence & File I/O | `edu.ccrm.io` package (`ImportExportService`, `BackupService`) |
+| Collection Framework | `edu.ccrm.service` package (e.g. `StudentService` using `List<Student>`) |
+| Exception Handling | `edu.ccrm.exceptions` (`DuplicateEnrollmentException`, `MaxCreditLimitExceededException`) |
+| Inheritance & Polymorphism | `Person` base class extended by `Student` and `Instructor` |
+| Console-based I/O | `edu.ccrm.cli.MainMenu` |
